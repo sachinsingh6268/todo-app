@@ -1,0 +1,77 @@
+*{
+    border: 0;
+    outline: 0;
+}
+
+.container{
+    margin: auto;
+    
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.todoItem{
+    margin: auto;
+    background-color: black;
+    color: white;
+    /* display: flex; */
+}
+
+div{
+    /* flex-direction: column; */
+    margin: 6px;
+    padding: 4px;
+    /* justify-content: center; */
+    
+}
+
+.itemDetails{
+    width: 400px;
+    margin: auto;
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+input{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 2px;
+}
+
+.container2{
+    min-height: 500px;
+    background-color: #5ac3a582;
+}
+
+.container2 h2{
+    color: #20211d;
+}
+
+ul li{
+    font-size: 20px;
+    background-color: green;
+    color:white;
+    padding: 5px;
+    margin: 5px 0;
+    list-style: none;
+}
+
+.important{
+    background-color: red;
+}
+
+span{
+    border: 2px black solid;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+button{
+    font-size: 1rem;
+}
+
+ 
